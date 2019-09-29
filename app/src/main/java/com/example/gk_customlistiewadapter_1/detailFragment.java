@@ -30,7 +30,7 @@ public class detailFragment extends Fragment {
         return view;
     }
     public void applyData(HoaQua hoaQua){
-        tvName.setText(hoaQua.getName()+"");
+        tvName.setText("Ten: "+hoaQua.getName()+"");
         tvMau.setText("mau: "+hoaQua.getMau()+"");
         tvMota.setText("mo ta: "+hoaQua.getMota()+"");
         tvSoLuong.setText("so luong: "+hoaQua.getSoluong()+"");
